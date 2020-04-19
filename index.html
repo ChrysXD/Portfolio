@@ -1,0 +1,552 @@
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="Portfolio, Diseño Web, Responsive, JS,JSON, JavaScript,HTML, CSS, JQuery, Flexbox, Materialize, Programación, Chrystian, Morales, Juegos, Sistemas, Java, C++, Desarrollo">
+		<meta name="description" content="Desarrollo de Sitios Web interactivos con interfaces totalmente funcionales. Al mejor estilo Responsive para la comodidad del usuario. Portfolio Web desarrollado por Chrystian Morales, programador y diseñador web junior especializado en HTML, CSS JS, PHP, SQL, C++ y Java.">
+		<meta name="viewport" content="width=device-width, user-scalable=no, 
+		initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie-edge">
+		<title>Portfolio</title>
+		<script src="https://kit.fontawesome.com/ff44acf6c4.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link href="https://fonts.googleapis.com/css?family=Public+Sans:400,700&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="x-images/icon" href="img/ico.ico">
+	</head>
+
+	<body>
+
+		<!--Particles-js-->
+
+		<div id="particles-js"></div>
+		<!--Particles-js-->
+
+
+		<div class="header2" id="header1">
+		<nav class="menu" >
+				<div class="logo1">
+					<a href="#"><img src="img/logo.png"></a>
+					<a href="" class="btn-menu" id="btn-menu"></a>
+				</div>
+
+				<div class="enlaces">
+					<a href="#">Inicio</a>
+					<a href="#footer">Contacto</a>
+				</div>
+			</nav>
+		</div>	
+
+			
+
+		<div class="contenedor">
+		<header>			
+		
+
+			
+
+			
+		
+		<!--Parte de la descripción de el diseñador-->
+
+		<div class="contenedordescip" id="contenedor">
+		<section class="tarjeta">
+			<div class="slider_banner">
+				
+
+
+				<!-- Flechas del Banner -->
+				<a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
+				<a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
+			</div>
+
+			<section class="slider_info">
+				<!-- Flechas del Slider -->
+				<a href="#" id="info-prev" class="flecha-info anterior" ><span class="fa fa-chevron-left" ></span></a>
+				<a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
+
+				<section class="informacion" id="informacion">
+					<article id="info">
+						<div class="slide active" >
+							<img src="img/aincrad.png" width="180" style="float: left;">
+							<img src="img/system.png" width="150" style="float: right;">
+							<h1 class="nombre">Chrystian Morales</h1>
+							<p class="trabajo">Programación y Diseño Web</p>
+							
+						</div>
+					
+						<div class="slide">
+							<h2 class="subtitulo" style="color: #fff; font-size: 25px; line-height: 24px; margin-bottom: 16px; font-family: 'Cheri';">Lenguajes</h2>
+							<p class="texto" >HTML5, CSS3, JavaScript, PHP, SQL, C++, Java.
+							<br><br>
+							  
+							Siempre me mantengo en constante aprendizaje, no me detengo.</p>
+						</div>
+
+						<div class="slide" >
+							<h2 style="color: #fff; font-size: 25px; line-height: 24px; margin-bottom: 16px; font-family: 'Cheri';" class="lang" key="titulo2">Habilidades</h2>
+							<p style="color: #fff; font-size: 18px; line-height: 24px; font-family: 'Cheri';" class="lang" key="ideas">Ideas: Aporto ideas para realizar un mejor trabajo, considero que la comunicación es uno de los factores más importantes.</p>
+							<img src="img/bombillo.png" alt=""  style="width: 90%; max-width: 75px;">
+							<br><br>
+							<p style="color: #fff; font-size: 18px; line-height: 24px; font-family: 'Cheri';" class="lang" key="maquetacion">
+							Maquetación: Soy organizado y comprometido al realizar un sitio web, desde trabajar en el proceso de maquetas y creación de prototipos hasta el desarrollo de las interfaces web totalmente funcionales.</p>
+							<img src="img/maquetacion.png" alt="" style="width: 90%; max-width: 150px;">
+							<p style="color: #fff; font-size: 18px; line-height: 24px; font-family: 'Cheri';" class="lang" key="codigo">
+							Código: Trabajando con HTML5, CSS3 y JavaScript me encargo del frontend. Igualmente puedo trabajar en el backend con tecnologías como PHP. Puedo elaborar algunos sistemas que renderizen las labores cotidianas del trabajo con Java y C++.</p>
+							<img src="img/codigo.png" alt="" style="width: 90%; max-width: 75px;">			
+						</div>
+
+					</article>
+					<div class="botones" id="botones"></div>
+				</section>
+
+			</section>
+		</section>
+	</div>
+
+		<!--Parte de la descripción de el diseñador-->	
+
+
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+				
+			</form>
+
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Diseño Web</a>
+				<a href="#">Programación</a>
+				<a href="#">Videos</a>
+			</div>
+		</header>
+
+		
+
+		<section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="diseño web"
+				 data-etiquetas="yggdrasil pagina web azul anime juegos "
+				 data-descripcion="Imagén publicitaria de Yggdrasil" 
+			>
+				<div class="item-contenido">
+					<img src="img/yggdrasil/Ygg1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="yggdrasil pagina web azul anime juegos"
+				 data-descripcion="Sección de inicio de Yggdrasil. Yggdrasil es un proyecto personal. Sitio web desarrollado en HTML CSS JavaScript tiene ciertas implementaciones responsive para que sea totalmente adaptable, utiliza algunos mediaqueries  para el uso más optimizado del código"
+			>
+				<div class="item-contenido">
+					<img src="img/yggdrasil/1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="yggdrasil pagina web azul anime juegos HTML CSS JavaScript Responsive MediaQuerys "
+				 data-descripcion="Sección de Registro de Yggdrasil"
+			>
+				<div class="item-contenido">
+					<img src="img/yggdrasil/2.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="yggdrasil pagina web azul anime juegos HTML CSS JavaScript Responsive MediaQuerys "
+				 data-descripcion="Sección de seleción de juego"
+			>
+				<div class="item-contenido">
+					<img src="img/yggdrasil/3.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="yggdrasil pagina web azul anime juegos HTML CSS JavaScript Responsive MediaQuerys "
+				 data-descripcion="Sección de inicio de sesión de Yggdrasil"
+			>
+				<div class="item-contenido">
+					<img src="img/yggdrasil/4.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="yggdrasil pagina web azul anime juegos HTML CSS JavaScript Responsive MediaQuerys "
+				 data-descripcion="Sección de categoría de juegos"
+			>
+				<div class="item-contenido">
+					<img src="img/yggdrasil/5.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas=" yggdrasil pagina web azul anime juegos HTML CSS JavaScript Responsive MediaQuerys "
+				 data-descripcion="Descripción sobre el juego The Elder's Scroll V: Skyrim de Yggdrasil"
+			>
+				<div class="item-contenido">
+					<img src="img/yggdrasil/6.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="videos"
+				 data-etiquetas=" yggdrasil pagina web azul anime juegos  HTML CSS JavaScript Responsive MediaQuerys "
+				 data-descripcion="Review de la pagina Yggdrasil"
+			>
+				<div class="item-contenido">
+					<video src="video/Yggdrasil.mp4" controls>
+				</div>
+			</div>
+
+			<div class="item" 
+				 data-categoria="programación"
+				 data-etiquetas="game juego C++ sprite bitmap indie independiente"
+				 data-descripcion=" Videojuego indie género RPG estilo Pókemon y Final Fantasy desarrollado en C++. Actualmente en desarrollo y en primera etapa."
+			>
+				<div class="item-contenido">
+					<img src="img/game/1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="game juego C++ sprite bitmap indie independiente"
+				 data-descripcion="9.- Desarrollo de juego independiente"
+			>
+				<div class="item-contenido">
+					<img src="img/game/2.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="game juego C++ sprite bitmap indie independiente "
+				 data-descripcion="Desarrollo de juego independiente
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/game/3.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="videos"
+				 data-etiquetas="game juego C++ sprite bitmap indie independiente "
+				 data-descripcion="Review de el juego indie desarrollado en C++
+				 	"
+			>
+				<div class="item-contenido">
+					<video src="video/Game.mp4" controls>
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Sistema de ventas desarrollado en Java con el manejador de contenido NetBeans para la empresa Fs Investments junto a equipo de desarrollo. Elaboración del módulo de el cálculo del presupuesto para los trabajos a realizar de la empresa. Encargado de las funciones lógicas del módulo de cálculo.
+
+				 Interfaz de inicio para el sistema de ventas realizado en Java.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments "
+				 data-descripcion="interfaz de inicio de sesión sistema de ventas realizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/2.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Interfaz de selección de modalidad del sistema de ventas realizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/3.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Sección de registro de usuario del sistema de ventas realizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/4.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Sección de consulta de tabla de usuarios registrados del sistema de ventas realizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/5.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Sección de registro de clientes del sistema de ventas realizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/6.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Sección de consulta de tabla de clientes registrados del sistema de ventas realizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/7.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Sección de registro de bienes del sistema de ventas reaizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/8.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Sección de consulta de tabla de bienes registrados del sistema de ventas realizado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/9.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="programación"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Interfaz de cálculo para la realización de presupuestos de la empresa.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/venta/10.png" alt="">
+				</div>
+			</div>
+
+
+			<div class="item"
+				 data-categoria="videos"
+				 data-etiquetas="interfaz java netbeans cms ventas sistema calculo usuario fs investments"
+				 data-descripcion="Review del sistema de ventas desarrollado en Java
+				 	"
+			>
+				<div class="item-contenido">
+					<video src="video/Ventas.mp4" controls>
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="simac diseño web sistema alcaldia municipio carrizal ciudadanos registro"
+				 data-descripcion="Sistema estilo web desarrollado en HTML,CSS,JavaScript,PHP y el SGBD PostgresSQL. Encargado del módulo de inicio de sesión y registro ciudadano del sistema integral del municipio de la alcaldía de Carrizal. Sección de Inicio de el sistema integrado municipal de la alcaldía de Carrizal.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/simac/1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="simac diseño web sistema alcaldia municipio carrizal ciudadanos registro"
+				 data-descripcion="Encuesta de parentesco para el estudio socioeconómico de el sistema integrado municipal de la alcaldía de Carrizal.  
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/simac/2.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="simac diseño web sistema alcaldia municipio carrizal ciudadanos registro"
+				 data-descripcion="Sección de registro de ciudadano de el sistema integrado municipal de la alcaldía de Carrizal
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/simac/3.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="simac diseño web sistema alcaldia municipio carrizal ciudadanos registro"
+				 data-descripcion="Sección de inicio de sesión de el sistema integrado municipal de la alcaldía de Carrizal
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/simac/4.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="simac diseño web sistema alcaldia municipio carrizal ciudadanos registro"
+				 data-descripcion="Estudio socioeconómico de SIMAC
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/simac/5.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="simac diseño web sistema alcaldia municipio carrizal ciudadanos registro"
+				 data-descripcion="Módulo de formulación de solicitudes de SIMAC.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/simac/6.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="sistema globo evaluativo PHP MySQL TransactSQL HTML CSS JavaScript Responsive empleados"
+				 data-descripcion="Sistema de evaluación del desempeño de personal para la empresa el Globo. Encargado del desarrollo total. Desarrollado en HTML,CSS,JavaScript,PHP,TransactSQL con el SGBD SQL Server, Responsive. Módulo de evaluación de empleados
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/evaluativo/1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="sistema globo evaluativo PHP MySQL TransactSQL HTML CSS JavaScript Responsive empleados"
+				 data-descripcion="Módulo de evaluación de empleados del sistema evaluativo de la empresa El Globo
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/evaluativo/2.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="sistema globo evaluativo PHP MySQL TransactSQL HTML CSS JavaScript Responsive empleados"
+				 data-descripcion="Sección de registro de empleados al sistema evaluativo
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/evaluativo/3.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="sistema globo evaluativo PHP MySQL TransactSQL HTML CSS JavaScript Responsive empleados"
+				 data-descripcion="Sección de Inicio de sesión
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/evaluativo/4.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="HTML CSS JavaScript Responsive MediaQuerys Git Github"
+				 data-descripcion=" Sitio diseñado para partícular con HTML,CSS,Flexbox,Materialize,JavaScript. Subido a los repositorios de Github.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/papa/1.png" alt="">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="diseño web"
+				 data-etiquetas="HTML CSS JavaScript Responsive MediaQuerys Git Github"
+				 data-descripcion="Portfolio de restauración de muebles elaborado para partícular
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="img/papa/2.png" alt="">
+				</div>
+			</div>
+		</section>
+
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+
+		<footer class="contenedor" id="footer">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a aria-label="Send email" href="mailto:chrystian22morales@hotmail.com" target="_blank" class="twitter">
+						<i class="far fa-envelope"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.facebook.com/profile.php?id=100008637493159" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.linkedin.com/in/chrystian-morales-5400b11a7/" target="_blank" class="linkedin">
+						<i class="fab fa-linkedin-in"></i>
+					</a>
+				</div>
+			</div>
+			
+		</footer>
+	</div>
+
+
+		<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+		<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/abajo.js"></script>
+		<script src="js/headroom.min.js"></script>
+		<script src="js/menu.js"></script>
+		<script src="js/main1.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/particles.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
